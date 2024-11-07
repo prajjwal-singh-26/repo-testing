@@ -10,7 +10,7 @@ btn.addEventListener("click",async() => {
 
 // let url="https://catfact.ninja/fact";
 
-async function getImage() {
+async function getImage() { //use async function
     try{
         let res=await axios.get(url2);
         return res.data.message;
